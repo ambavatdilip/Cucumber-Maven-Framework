@@ -1,0 +1,219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user is able to create new Map deal",
+        "description": "",
+        "id": "free-crm-new-map-deal-feature;user-is-able-to-create-new-map-deal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34491892032,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "DealMapStepDefinition.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63939830,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "DealMapStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1201224477,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username and password",
+            "match": {
+              "location": "DealMapStepDefinition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "naveenk",
+                  "test123"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10509137266,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "DealMapStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22888415,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on home page",
+            "match": {
+              "location": "DealMapStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3194170619,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user moves to new contact page",
+            "match": {
+              "location": "DealMapStepDefinition.user_moves_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5122251129,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter contact details firstname and lastname",
+            "match": {
+              "location": "DealMapStepDefinition.user_enter_contact_details_firstname_and_lastname(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Dilip",
+                  "Ambavat"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Tisha",
+                  "Ambavat"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1834822697,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user move to deal page",
+            "match": {
+              "location": "DealMapStepDefinition.user_move_to_deal_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8076504546,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter deal detail",
+            "match": {
+              "location": "DealMapStepDefinition.user_enter_deal_detail(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title",
+                  "Amount",
+                  "Probability",
+                  "Commission"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "QTP Deal",
+                  "1500",
+                  "80",
+                  "40"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "JIRA Deal",
+                  "3500",
+                  "70",
+                  "30"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "TOSCA Deal",
+                  "4500",
+                  "60",
+                  "20"
+                ],
+                "line": 26
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 678438851,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user close the browser",
+            "match": {
+              "location": "DealMapStepDefinition.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM New Map Deal Feature",
+    "description": "",
+    "id": "free-crm-new-map-deal-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Softtech/eclipse-workspace/POM/BDD_FreeCRM/src/main/java/Features/MapDealContact.feature"
+  }
+]
